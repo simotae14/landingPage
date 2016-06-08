@@ -20,9 +20,17 @@ nav .brand-logo {
   font-family: 'Satisfy', cursive;
 }
 
+/*
+aggiungo selettore a .nav-wrapper
+per aggiungere del padding sx e dx di 50px
+*/
+.nav-wrapper {
+  padding: 0px 50px;
+}
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #EF5350;
 }
 
 p {
