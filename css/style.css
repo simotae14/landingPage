@@ -6,6 +6,20 @@
  * Made By MaterializeCSS.com
  */
 
+/* assegniamo raleway a tutto il body
+*/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*
+inserisco il font per il logo
+Satisfy
+*/
+nav .brand-logo {
+  font-family: 'Satisfy', cursive;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
