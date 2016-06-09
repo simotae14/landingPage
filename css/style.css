@@ -88,6 +88,8 @@ per evitare che si sovrapponga con navbar
 */
 .col-servizio {
   margin-top: 60px;
+  /* aggiungo del margine inferiore alla colonna servizio */
+  margin-bottom: 100px;
 }
 
 .icon-block {
