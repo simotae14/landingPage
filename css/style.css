@@ -125,14 +125,45 @@ regstrazione-subtitle
 .registrazione-subtitle {
   /* porto la dimensione del testo a 1.3em */
   font-size: 1.3em;
-  /* e l'interlinea a 1.6 come h5 in pratica */
-  line-height: 1.6em;
+  /* aggiungo il margin top del 5% */
+  margin-top: 5%;
 }
 
 /*
 allargo il bottone di submit della mail al 100% del container 
 */
 .btn-registrazione {
+  width: 100%;
+}
+
+
+/*
+formattazione dell'icona place
+*/
+.ospita-icon {
+  /* aumento dimensione */
+  font-size: 7em;
+  /* metto un margine superiore */
+  margin-top: 60px;
+}
+
+/*
+definisco la rule per la classe del sottotitolo
+ospita-subtitle
+*/
+.ospita-subtitle {
+  /* porto la dimensione del testo a 1.3em */
+  font-size: 1.3em;
+  /* aggiungo il margin top del 5% */
+  margin-top: 5%;
+  /* aggiungo interlinea di 2em */
+  line-height: 2em;
+}
+
+/*
+allargo il bottone di submit della mail al 100% del container 
+*/
+.btn-ospita {
   width: 100%;
 }
 
