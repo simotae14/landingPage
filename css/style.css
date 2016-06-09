@@ -38,7 +38,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #EF5350;
 }
 
 .parallax-container {
@@ -47,9 +47,22 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
+/*
+cancello la regola che nn ha senso
   .parallax-container .section {
     width: 100%;
   }
+
+*/
+
+/*
+definisco una rule per l'altezza della section-intro
+e larghezza della sezione al 100% di modo che occupino tutto lo spazio
+*/
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
 
 /*
 creo margine superiore all'header
@@ -80,6 +93,14 @@ creo rules su .header-subtitle
   #index-banner .section {
     top: 0;
   }
+
+  /*
+  aggiungo selettore a .nav-wrapper
+  per aggiungere del padding sx e dx di 10px
+  */
+  .nav-wrapper {
+    padding: 0px 10px;
+  }
 }
 
 /*
@@ -106,6 +127,15 @@ ridimensiono h5 su #servizio
   font-size: 1.3em;
   /* aggiungo interlinea */
   line-height: 1.6em;
+}
+
+/*
+definisco una rule per l'altezza della section-registrazione
+e larghezza della sezione al 100% di modo che occupino tutto lo spazio
+*/
+.section-registrazione {
+  height: 100%;
+  width: 100%;
 }
 
 /*
