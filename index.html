@@ -21,7 +21,7 @@
         <a href="#" class="brand-logo">LacerBnb</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#servizio">Servizio</a></li>
-          <li><a href="">Registrati</a></li>
+          <li><a href="#registrazione">Registrati</a></li>
           <li><a href="">Ospita</a></li>
         </ul>
       </div>
@@ -84,11 +84,25 @@
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <!-- Registrazione -->
+  <div id="registrazione" class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <!-- aggiungo un'icona rappresentativa di un viaggio-->
+          <i class="material-icons registrazione-icon">flight</i>
+          <!-- modifico h5 in h3 per il titolo sezione -->
+          <h3 class="col s12 light">Sei in cerca della tua prossima destinazione?</h3>
+          <!-- aggiungo un sottotitolo e la class registrazione-subtitle -->
+          <h5 class="col s12 registrazione-subtitle">Registrati per rimanere aggiornato sul rilascio della versione Beta</h5>
+          <!-- Aggiungo l'input form con il bottone di submit per invio mail -->
+          <div class="row">
+            <div class="input-field col s12 l6 offset-l3">
+              <input id="email" type="email" class="validate white center black-text" placeholder="Inserisci la tua email!">
+              <!-- aggiungo il bottone di submit -->
+              <button class="btn btn-registrazione waves-effect waves-light red lighten-1" type="submit" name="action">Voglio Registrarmi!</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
