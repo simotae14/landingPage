@@ -169,4 +169,25 @@ allargo il bottone di submit della mail al 100% del container
 
 footer.page-footer {
   margin: 0;
+  /* aggiungo colore di sfondo della palette */
+  background-color: #3D5467;
+}
+
+/*
+stile dell'icona per l'invio mail
+*/
+.social-icon {
+  /* aumento dimensione */
+  font-size: 1.5em;
+  /* la coloro di bianco */
+  color: #fff;
+  /* aggiungo del padding laterale di 20px */
+  padding: 0 20px;
+}
+
+/*
+effetto di hover sulle icone
+*/
+.social-icon:hover {
+  color: #EF5350;
 }
